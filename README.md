@@ -38,6 +38,8 @@ $ pip install Flask
 Run locally
 
 
-curl -i -H "Content-Type: Application/json" -X PUT  http://localhost:5000/artists/1 
-curl -i -H "Content-Type: Application/json" -X POST http://localhost:5000/artists    
+curl -i -H "Content-Type: Application/json" -X PUT  http://localhost:5000/artists/1
+
+curl -i -H "Content-Type: Application/json" -X POST http://localhost:5000/artists
+
 curl -i -H "Content-Type: Application/json" -X DELETE  http://localhost:5000/artists/1 
